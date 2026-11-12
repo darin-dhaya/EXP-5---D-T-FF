@@ -17,7 +17,7 @@ Q(next) = T ⊕ Q   (Q(next) = Q if T = 0, Q(next) = Q' if T = 1)
 ## Design / RTL Program
 // gedit dff_tff.v
 
- ```
+
 module dff (
     input  wire clk,   // clock
     input  wire rst,   // asynchronous active-high reset
@@ -48,7 +48,6 @@ module tff (
     end
 endmodule
 
-```
 ## Testbench Program
 
 
@@ -166,6 +165,7 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 
 ## Output
 <img width="595" height="369" alt="image" src="https://github.com/user-attachments/assets/38290e4d-a813-4e0c-b891-68044c90623b" />
+<img width="1920" height="991" alt="exp5" src="https://github.com/user-attachments/assets/ee1959c5-9f6b-4c22-a32b-46875c937c24" />
 
 ## Viva-Voce Questions
 
